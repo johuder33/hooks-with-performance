@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.heading {
+  font-size: 30px;
+  margin: 0px 0px 30px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.render-counter {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+}
+
+.cartoon {
+  background-image: url("https://66.media.tumblr.com/tumblr_mb4zsyUYCT1rvuv0d.png");
+  width: 84px;
+  height: 126px;
+  animation: walking .7s steps(6) infinite;
+}
+
+@keyframes walking {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -500px 0px;
+  }
+}
